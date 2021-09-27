@@ -10,7 +10,7 @@ const Home = () => {
             <section className="container my-5 py-4">
                 <div className="row">
                     <div className="col-md-5 mt-5">
-                        <h1 className="display-5 mb-4"> Hey there! My Name is <br/> Wilson Sous</h1>
+                        <h1 className="display-5 mb-4"> Hey there! <br /> My Name is Wilson</h1>
                         {/* <h2 className="display-5"> I am a Full Stack Web Developer</h2> */}
                         <p className="lead mb-4">
                             Full Stack Web Developer looking to futher expand my skills in the world of software development.
