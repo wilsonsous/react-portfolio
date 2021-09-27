@@ -1,38 +1,42 @@
-.App {
-  text-align: center;
+/* Project cards */
+.Projects {
+  margin-top:  40px;
+  margin-bottom: 30px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Projects .Projects-titles{
+  color: #fff;
+  font-size: 30px;
+  font-weight: 300;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Projects .list_projects{
+  padding: 10px 16px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.Projects .list_projects .card{
+  background-color: #fff;
+  padding: 5px 5px;
+  margin-bottom: 30px;
+  font-size: 15px;
+}
+
+.Projects .list_projects .card .shadow{
+  --webkit-box-shadow: 3px 3px 5px 6px #ccc;
+  -moz-box-shadow: 3px 3px 5px 6px #ccc;
+  box-shadow: 3px 3px 5px 6px #ccc;
+}
+
+.Projects .list_projects .card img{
+  width: 100%;
+  object-fit:cover;
+}
+
+.contact-form{
+  background: rgba(0,0,0, .6);
   color: white;
+  margin-top: 100px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px 3px grey;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
