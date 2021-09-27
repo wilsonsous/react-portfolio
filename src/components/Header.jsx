@@ -6,7 +6,7 @@ const Header = () => {
     return (
       <div>
         {/* changes navbar colors */}
-<nav className="navbar navbar-expand-lg navbar-dark bg-primary">
+<nav className="navbar navbar-expand-lg navbar-dark bg-dark">
   <div className="container">
   <NavLink className="navbar-brand" to="/home">myPortfolio</NavLink>
   <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
